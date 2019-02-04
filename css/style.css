@@ -6,8 +6,16 @@ body {
     background-color: #eee;
 }
 
-section.section {
+.section {
+    text-align: center;
     padding: 20px 40px;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px 0;
+    background-color: black;
+    color: aliceblue;
 }
 
 .caption {
@@ -27,9 +35,6 @@ section.section {
     padding: 1rem;
   }
 
-.caption .border.trans {
-    background-color: rgba(0, 0, 0, 0.5);
-}
 
 .section-light {
     background-color: #333;
@@ -41,7 +46,7 @@ section.section {
 
 div.pimg1 {
     background: url("../images/img1.jpg");
-    min-height: 400px;
+    min-height: 800px;
 }
 
 div.pimg2 {
