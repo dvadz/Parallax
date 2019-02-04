@@ -1,3 +1,14 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 3.0rem;
+    color: #666c;
+}
+
+.section {
+    margin: 20px 40px;
+}
+
 div.pimg1 {
     background: url("../images/img1.jpg");
     min-height: 400px;
@@ -13,6 +24,13 @@ div.pimg3 {
     min-height: 400px;
 }
 
+div.pimg1,
+div.pimg2,
 div.pimg3 {
-    color: #000;
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    position: relative;
+
 }
